@@ -340,7 +340,7 @@ $(window).resize(function() {
 $(document).ready(function () {
     updateScreenElements();
 
-    console.log("Hey, Judge0 IDE is open-sourced: https://github.com/judge0/ide. Have fun!");
+    console.log("Hey, ASTEdit is open-sourced: https://github.com/angelotrabuco2013/ASTEdit. Have fun!");
 
     $selectLanguage = $("#select-language");
     $selectLanguage.change(function (e) {
@@ -790,8 +790,8 @@ object Main {\n\
 ";
 
 var sqliteSource = "\
--- On Judge0 IDE your SQL script is run on chinook database (https://www.sqlitetutorial.net/sqlite-sample-database).\n\
--- For more information about how to use SQL with Judge0 please\n\
+-- On ASTEdit your SQL script is run on chinook database (https://www.sqlitetutorial.net/sqlite-sample-database).\n\
+-- For more information about how to use SQL with ASTEdit please\n\
 -- watch this asciicast: https://asciinema.org/a/326975.\n\
 SELECT\n\
     Name, COUNT(*) AS num_albums\n\
@@ -820,7 +820,7 @@ End Module\n\
 ";
 
 var c3Source = "\
-// On the Judge0 IDE, C3 is automatically\n\
+// On the ASTEdit platform, C3 is automatically\n\
 // updated every hour to the latest commit on master branch.\n\
 module main;\n\
 \n\
@@ -915,7 +915,7 @@ print(f\"Hello from processor with rank {world_rank} out of {world_size} process
 ";
 
 var nimSource = "\
-# On the Judge0 IDE, Nim is automatically\n\
+# On the ASTEdit platform, Nim is automatically\n\
 # updated every day to the latest stable version.\n\
 echo \"hello, world\"\n\
 ";
@@ -931,7 +931,7 @@ print(\"hello, world\")\n\
 ";
 
 var bosqueSource = "\
-// On the Judge0 IDE, Bosque (https://github.com/microsoft/BosqueLanguage)\n\
+// On the ASTEdit platform, Bosque (https://github.com/microsoft/BosqueLanguage)\n\
 // is automatically updated every hour to the latest commit on master branch.\n\
 \n\
 namespace NSMain;\n\
